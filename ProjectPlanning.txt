@@ -1,22 +1,36 @@
 DIODE (DIsc dOg Data Exploration) Project Planning
 
-
--Predict time to league promotion (what the best predictors are and with what accuracy this can be predicted would be interesting)
--Predict score of a given dog/handler
--Predict winning club for a season
--Determine best dog breed of all time/handler of all time/ club of all time
--Look for seasonal trends in team/club scores
--predict growth of sport(will have to determine a metric like overall participation) in an area
-  --this could have some cool time lapsed visualizations, people love movies
--Extract more concreate stats on players, something like points per throw, total yards (this could be coarsley estimated based on score)
--Is toss and fetch data predictive of that years world champion at skyhoundz, usddn, awi, etc
--what is the participation of world champions in various organizations
-  --Do they play in league/updog or is it beneath them
--trends between dog ownership and disc dog growth
--Project could be expanded to include other dog sports, Dock diving, agility, etc.
+Data Gathering
+-Web scrape historical Skyhoundz Classic Results (Bryan)
+-Web scrape historical Skyhoundz Xtreme Distance Results (Amber)
 -Web scrape/ ask for data from other organizations, beginning with "core" disciplines like freestyle, toss and fetch, distance
--Include on field visualizations of scores
-  --imagine a heat map of scores overlayed onto an image of the toss and fetch field, this could help the uninitiated understand the games and data better
+-Expand data to include other dog sports, Dock diving, agility, etc. if needed
+-Potentially pull weather data
+
+Data Cleaning
+-Extract more concrete stats on players, something like points per throw, total yards (this could be coarsley estimated based on score), rank, etc  
+
+Descriptive Tasks
+-Has growth in participation pushed limits of scores? Are we maxed out on top score but more people are reaching it? 
+-Look for seasonal trends in team/club scores
+  --and overall participation by season
+-Social media participation: #discdog growth?
+-Trends between dog ownership and disc dog growth
+-Determine best dog breed of all time/handler of all time/ club of all time
+-Are certain clubs making players better? Do clubs with top players often outperform other clubs?
+-What is the participation of world champions in various organizations
+-Investigate how weather affects the data, would need another source for weather data
+  --NOAA has historical weather data online, but it's not yet clear how complex this might be to access. 
+
+Predictive Tasks
+-Predict winning club for a season
+-Predict score of a given dog/handler
+-Predict growth of sport (will have to determine a metric like overall participation) in an area
+-Is toss and fetch data predictive of that years world champion at skyhoundz, usddn, awi, etc
+-Predict time to league promotion (what the best predictors are and with what accuracy this can be predicted would be interesting)
+
+Visualization Tasks
 -Heat map of participation overlayed onto global map to show how the sport is growing world wide
   --imagining something like the growing circles on the pandemic maps, this is a plot everyone now knows how to read
--Investigate how weather affects the data, would need another source for weather data
+-Include on-field visualizations of scores
+  --imagine a heat map of scores overlayed onto an image of the toss and fetch field, this could help the uninitiated understand the games and data better 
